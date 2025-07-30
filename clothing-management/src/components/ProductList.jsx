@@ -17,14 +17,16 @@ export default function ProductList() {
   }, []);
 
   useEffect(() => {
-    let result = products;
+    let result = [...products];
     if (keyword)
       result = result.filter((p) =>
         p.name.toLowerCase().includes(keyword.toLowerCase())
       );
     if (type) result = result.filter((p) => p.type === type);
+    result.sort((a, b) => a.quantity - b.quantity);
+
     setFiltered(result);
-  }, [keyword, type]);
+  }, [products, keyword, type]);
 
   return (
     <div className="container py-4">

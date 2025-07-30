@@ -3,9 +3,9 @@
     {
       "id": 1,
       "code": "SP001",
-      "name": "Áo Sơ Mi 3",
+      "name": "Áo Sơ Mi",
       "importDate": "03/07/2025",
-      "quantity": 50,
+      "quantity": 25,
       "categoryId": 1,
       "type": "Áo"
     },
