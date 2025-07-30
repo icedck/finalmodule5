@@ -1,0 +1,57 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "code": "SP001",
+      "name": "Áo Sơ Mi 3",
+      "importDate": "03/07/2025",
+      "quantity": 50,
+      "categoryId": 1,
+      "type": "Áo"
+    },
+    {
+      "id": 2,
+      "code": "SP002",
+      "name": "Quần jean",
+      "importDate": "10/07/2025",
+      "quantity": 30,
+      "categoryId": 2,
+      "type": "Quần"
+    },
+    {
+      "id": 3,
+      "code": "SP003",
+      "name": "Áo thun",
+      "importDate": "12/07/2025",
+      "quantity": 40,
+      "categoryId": 1,
+      "type": "Áo"
+    },
+    {
+      "id": 4,
+      "code": "SP004",
+      "name": "Váy ngắn",
+      "importDate": "13/07/2025",
+      "quantity": 20,
+      "categoryId": 3,
+      "type": "Váy"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "code": "L001",
+      "name": "Áo"
+    },
+    {
+      "id": 2,
+      "code": "L002",
+      "name": "Quần"
+    },
+    {
+      "id": 3,
+      "code": "L003",
+      "name": "Váy"
+    }
+  ]
+}
